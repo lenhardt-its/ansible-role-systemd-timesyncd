@@ -1,9 +1,9 @@
 # Ansible Role:
 
 [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[![GitHub tag](https://img.shields.io/github/tag/OnkelDom/ansible-role-systemd-tiumesyncd.svg)](https://github.com/OnkelDom/ansible-role-systemd-tiumesyncd/tags)
-[![GitHub issues](https://img.shields.io/github/issues/OnkelDom/ansible-role-systemd-tiumesyncd)](https://github.com/OnkelDom/ansible-role-systemd-tiumesyncd/issues)
-[![GitHub license](https://img.shields.io/github/license/OnkelDom/ansible-role-systemd-tiumesyncd)](https://github.com/OnkelDom/ansible-role-systemd-tiumesyncd/blob/master/LICENSE)
+[![GitHub tag](https://img.shields.io/github/tag/OnkelDom/ansible-role-systemd-timesyncd.svg)](https://github.com/OnkelDom/ansible-role-systemd-timesyncd/tags)
+[![GitHub issues](https://img.shields.io/github/issues/OnkelDom/ansible-role-systemd-timesyncd)](https://github.com/OnkelDom/ansible-role-systemd-timesyncd/issues)
+[![GitHub license](https://img.shields.io/github/license/OnkelDom/ansible-role-systemd-timesyncd)](https://github.com/OnkelDom/ansible-role-systemd-timesyncd/blob/master/LICENSE)
 
 ## Description
 
