@@ -1,11 +1,12 @@
 ---
 - name: configure /etc/timezone
   copy:
-    content: "{{ time_zone }}"
+    content: "{{ systemd_timesyncd_time_zone }}"
     dest: /etc/timeszone
     owner: root
     group: root
     mode: 0644
+  tags: timesyncd
 
 - name: configure /etc/systemd/timesyncd.conf
   template:
@@ -16,6 +17,7 @@
     mode: 0644
   notify: restart systemd-timesyncd
   when: systemd_timesyncd
+  tags: timesyncd
 
 - name: start and enable timeservices
   service:
@@ -26,3 +28,4 @@
   - systemd-timedated
   - systemd-timesyncd
   when: systemd_timesyncd
+  tags: timesyncd
