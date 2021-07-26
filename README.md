@@ -1,4 +1,4 @@
-# Ansible Role:
+# Ansible Role: SystemD TimesyncD
 
 [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![GitHub tag](https://img.shields.io/github/tag/OnkelDom/ansible-role-systemd-timesyncd.svg)](https://github.com/OnkelDom/ansible-role-systemd-timesyncd/tags)

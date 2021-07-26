@@ -4,3 +4,4 @@
     name: systemd-timesyncd
     state: restarted
   tags: timesyncd
+  become: true
